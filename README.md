@@ -76,7 +76,7 @@ pip install -r requirements.txt
 To build an index from a dataset:
 
 ```
-python scripts/cont_rag_faiss_store.py   --docs-folder data/demo_split   --store-dir data/store   --store-name demo_store   --embedding-model models/sentence_transformer   --device cuda   --show-progress
+python scripts/cont_rag_faiss_store.py   --docs-folder data/demo_split   --store-dir data/store   --store-name demo_store   --embedding-model labpt/SLawEmbed   --device cuda   --show-progress
 ```
 
 To load an existing store:
@@ -92,7 +92,7 @@ python scripts/cont_rag_faiss_store.py   --store-dir data/store   --store-name d
 Basic retrieval:
 
 ```
-python scripts/cont_rag_retrieve.py   --store-dir data/store   --store-name demo_store   --embedding-model models/sentence_transformer   --device cuda   --query "Besedilo člena..."   --top-k 10
+python scripts/cont_rag_retrieve.py   --store-dir data/store   --store-name demo_store   --embedding-model labpt/SLawEmbed   --device cuda   --query "Besedilo člena..."   --top-k 10
 ```
 
 ---
@@ -100,7 +100,7 @@ python scripts/cont_rag_retrieve.py   --store-dir data/store   --store-name demo
 ## Retrieval with GaMS Reranking
 
 ```
-python scripts/cont_rag_retrieve.py   --store-dir data/store   --store-name demo_store   --embedding-model models/sentence_transformer   --device cuda   --query "Besedilo člena..."   --top-k 20   --use-gams   --gams-adapter-dir models/gams_adapter
+python scripts/cont_rag_retrieve.py   --store-dir data/store   --store-name demo_store   --embedding-model labpt/SLawEmbed   --device cuda   --query "Besedilo člena..."   --top-k 20   --use-gams   --gams-adapter-dir labpt/ContRAG-GaMS3
 ```
 
 Pipeline:
