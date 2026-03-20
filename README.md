@@ -22,10 +22,6 @@ The repository is designed to be lightweight and modular, allowing users to:
 │   ├── cont_rag_faiss_store.py
 │   └── cont_rag_retrieve.py
 │
-├── models/
-│   ├── gams_adapter/
-│   └── sentence_transformer/
-│
 ├── data/
 │   ├── SLawNLI.jsonl
 │   └── demo_split/
