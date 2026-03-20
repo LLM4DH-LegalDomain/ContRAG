@@ -13,7 +13,6 @@ The repository is designed to be lightweight and modular, allowing users to:
 3. Optionally rerank retrieved candidates using a contradiction-aware NLI model
 
 ---
-
 ## Repository Structure
 
 ```
@@ -60,6 +59,17 @@ During indexing:
 Important:
 - The system assumes article-level granularity
 - If using external datasets, they must be preprocessed into this format
+
+---
+
+## Models
+
+Models are hosted on Hugging Face:
+
+- Sentence Transformer: https://huggingface.co/username/contrag-legal-embeddings
+- GaMS Adapter: https://huggingface.co/username/contrag-gams
+
+They will be automatically downloaded when used.
 
 ---
 
