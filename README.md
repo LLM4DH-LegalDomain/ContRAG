@@ -66,8 +66,8 @@ Important:
 
 Models are hosted on Hugging Face:
 
-- Sentence Transformer: https://huggingface.co/username/contrag-legal-embeddings
-- GaMS Adapter: https://huggingface.co/username/contrag-gams
+- Sentence Transformer: [labpt/SLawEmbed](https://huggingface.co/labpt/SLawEmbed)
+- GaMS Adapter: [labpt/ContRAG-GaMS3](https://huggingface.co/labpt/ContRAG-GaMS3)
 
 They will be automatically downloaded when used.
 
